@@ -1,0 +1,8 @@
+{% extends "main.html" %}
+
+{% block content %}
+<div class="contact">
+    <h2 class="heading">Welcome {{request.user}}</h2>
+    <div class='mystyle'><a class='headding' href="{% url 'shop:home' %}">Go to Home</a></div>
+</div>
+{% endblock content %}

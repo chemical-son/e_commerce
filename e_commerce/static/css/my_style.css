@@ -1,0 +1,16 @@
+.error{
+	color: rgb(139, 1, 1);
+}
+
+.mystyle a{
+	color: var(--darkStaleGray);
+	border: 1px solid rgba(236, 240, 241,0.3);
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+	padding: 5px 8px;
+	display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}

@@ -1,4 +1,4 @@
-=> authenticaion app
+=> authenticaion app ::DONE
 => shop app { display products, buy, add to cart, delete from cart, add to favorate }
 => admin app { show orders, publish new procuct, delete broduct, add products to existing ones "sublay", create category, edit category, show users and its history of buying products, create offer, update offer }
 

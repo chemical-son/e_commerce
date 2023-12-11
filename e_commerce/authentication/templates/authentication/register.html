@@ -1,1 +1,30 @@
-<h1>Register page</h1>
+{% extends "main.html" %}
+
+{% block content %}
+<div class="contact">
+    <h2 class="heading">Register</h2>
+    <form class="checkout-form" method="post">
+        {% csrf_token %} 
+        <div class="form-group">
+            <label>Username</label>
+            <input autofocus required type="text" id="username" name="username">
+        </div> 
+        <div class="form-group">
+            <label>Email</label>
+            <input required type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input required type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+            <label>Confirm password</label>
+            <input required type="password" id="pconfirm_passwordassword" name="confirm_password">
+        </div>
+        <div class="form-group">
+            <label></label>
+            <input type="submit" id="register" name="register" value="Register">
+        </div>
+    </form>	
+</div>
+{% endblock content %}
